@@ -1,0 +1,25 @@
+.user-name{
+    margin-right: 100px;
+    /* background: #000; */
+}
+
+nav{
+    background-color: teal  !important;
+}
+
+/* .nav-font-color{
+    color: black ;      
+} */
+
+.bold{
+    font-weight:bold ;
+}
+
+.border-bold{
+    border: 1px solid white !important;
+    color: white;
+}
+
+/* .content{
+    position: sticky ;
+} */
