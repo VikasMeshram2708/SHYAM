@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="hero__main">
       {/* left */}
-      <div className="p-3">
+      <div className="p-3 heroContent">
         <h1>INNOVATIVE</h1>
         <h1>SOLUTIONS FOR BUSINESSMEN</h1>
         <p>
@@ -17,12 +17,12 @@ const Hero = () => {
       </div>
 
       {/* right */}
-      <div className="">
+      <div className="parentImgContainer">
         <img
           id="heroBanner"
           src="/Hero/HeroBanner.jpeg"
           alt="hero banner home"
-          className="img-thumbnail"
+          className="myImg"
         />
       </div>
     </section>
