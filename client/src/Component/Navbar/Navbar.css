@@ -1,25 +1,40 @@
-.user-name{
+.user-name {
     margin-right: 100px;
     /* background: #000; */
 }
 
-nav{
-    background-color: teal  !important;
+nav {
+    background-color: teal !important;
 }
 
 /* .nav-font-color{
     color: black ;      
 } */
 
-.bold{
-    font-weight:bold ;
+.bold {
+    font-weight: bold;
 }
 
-.border-bold{
+.border-bold {
     border: 1px solid white !important;
     color: white;
 }
 
-/* .content{
-    position: sticky ;
-} */
+
+@media (min-width:736px) {
+    /* .main_nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    } */
+
+    /* .main_nav {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        border: 2px solid red;
+    } */
+    .nav_items {
+        display: flex !important;
+        flex-direction: row;
+        /* border: 2px solid red; */
+    }
+}
