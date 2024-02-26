@@ -1,0 +1,21 @@
+nav {
+    background-color: #5cb1d7 !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__title {
+    font-size: 1rem;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav__last {
+}
